@@ -4,7 +4,7 @@
 </head>
 <body>
 <ul>
-<li> kuramoto.m: master file; creates animation (uncomment line 80 to save as .gif)</li>
+<li> kuramoto.m: master file; creates animation (uncomment line 76 to save as .gif)</li>
 <li> kuramoto_eq.m: the Kuramoto model as a system of ODEs </li>
 </ul>
 </body>
