@@ -6,5 +6,6 @@
 <ul>
 <li> kuramoto.m: master file; creates animation (uncomment line 76 to save as .gif)</li>
 <li> kuramoto_eq.m: the Kuramoto model as a system of ODEs </li>
+<li> kuramoto.gif: created with kuramoto(15, 10, 0.5) </li>
 </ul>
 </body>
