@@ -73,11 +73,11 @@ M = getframe;
     plot(re, im, 'ko', 'MarkerSize', 5, 'MarkerFaceColor', 'k')
    
     M = getframe;
+    %exportgraphics(gcf,'kuramoto.gif','Append',true);
     
     hold off
     
  end
- %imwrite(im,map,'kuramoto.gif','DelayTime',0,'LoopCount',inf,'BackgroundColor',1)
-
+ 
 end
 
