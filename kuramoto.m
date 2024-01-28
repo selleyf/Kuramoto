@@ -40,9 +40,10 @@ sz = [500 550]/2;                                           % set plot window
     set(gca, 'YTickLabelMode', 'manual', 'YTickLabel', [])
     set(gca,'xtick',[])
     set(gca,'ytick',[])
+
 M = getframe;
 
- for i = 1:size(Y)
+for i = 1:size(Y)
     
     sz = [500 550]/2;                                         % set plot window 
     screensize = get(0,'ScreenSize');
